@@ -43,6 +43,13 @@ line-height: 18px;
 letter-spacing: 0%;
 text-align: left;
 }
+.nav__link{
+    text-decoration: none;
+}
+.nav__link:visited{
+    color:pink;
+    text-decoration: line-through;
+}
 .hero-block{
     background: rgb(44, 44, 44);
 }
@@ -241,3 +248,4 @@ margin-top: 18px;
 .footer__item:not(:last-child){
     margin-right: 40px;
 }
+
